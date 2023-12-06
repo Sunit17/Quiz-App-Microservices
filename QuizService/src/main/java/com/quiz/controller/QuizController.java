@@ -1,7 +1,7 @@
 package com.quiz.controller;
 
 import com.quiz.entity.Quiz;
-import com.quiz.entity.service.QuizService;
+import com.quiz.service.QuizService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

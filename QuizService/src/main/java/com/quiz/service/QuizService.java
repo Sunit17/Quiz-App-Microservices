@@ -1,4 +1,4 @@
-package com.quiz.entity.service;
+package com.quiz.service;
 
 import com.quiz.Repository.QuizRepo;
 import com.quiz.entity.Quiz;
