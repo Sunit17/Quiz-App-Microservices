@@ -27,6 +27,10 @@ public class QuestionService {
     {
         return questionRepo.findById(questionId).orElseThrow(()-> new RuntimeException(" Id is not found"));
     }
-    
+
+    public List<Question> getByQuizId(Long quizId)
+    {
+        return questionRepo.findByQuizId(quizId);
+    }
     
 }
