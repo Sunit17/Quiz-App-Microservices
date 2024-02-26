@@ -13,4 +13,3 @@ public class Question {
     private String question;
     private Long quizId;
 }
-git 
